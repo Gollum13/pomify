@@ -12,6 +12,7 @@ Below is an example of a project structure with 3 roots.
 >>> Detected the following roots:  planet-starter-parent, planet-core, satellite-starter,
 >>> Printing tree with root [planet-starter-parent]:
 
+```
 planet-starter-parent
 +--- earth-common
 +--- spaceship-common
@@ -31,9 +32,11 @@ planet-starter-parent
 +--- mars-starter
 +--- mars-test
 +--- earth-common
+```
 
 >>> Printing tree with root [planet-core]:
 
+```
 planet-core
 +--- planet-commons
 +--- planet-deps
@@ -52,14 +55,17 @@ planet-core
 |     |     +--- spaceship-bomber
 |     +--- spaceship-transporter
 |     +--- spaceship-test
+```
 
 >>> Printing tree with root [satellite-starter]:
 
+```
 satellite-starter
 +--- satellite-earth
+```
 
 How to run
 ----------
 
-Place pomify.py inside the topmost folder. The script will scan recursivelly, all the scripts inside children folders
-Run "python pomify.py"
+1. Place pomify.py inside the topmost folder. The script will scan recursivelly, all the scripts inside children folders
+2. Run ```python pomify.py```
